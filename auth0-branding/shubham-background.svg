@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Shubham Identity Security background">
+  <defs>
+    <radialGradient id="bg1" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#0E2B5E"/>
+      <stop offset="0.48" stop-color="#081936"/>
+      <stop offset="1" stop-color="#020814"/>
+    </radialGradient>
+    <linearGradient id="shieldG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F6FEA" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#2BC2FF" stop-opacity=".38"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#4AA8FF" opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+  <rect x="0" y="0" width="520" height="330" fill="url(#dots)" opacity=".75"/>
+  <rect x="1400" y="700" width="520" height="330" fill="url(#dots)" opacity=".55"/>
+
+  <g opacity=".48" fill="none" stroke="#3C8DFF" stroke-width="2">
+    <path d="M-120 930 C180 610 430 520 760 610"/>
+    <path d="M-70 1000 C220 680 470 610 790 700" opacity=".55"/>
+    <path d="M-20 1060 C260 760 510 700 840 790" opacity=".30"/>
+  </g>
+  <g fill="#4CB9FF" filter="url(#glow)">
+    <circle cx="110" cy="860" r="5"/><circle cx="240" cy="740" r="4"/><circle cx="375" cy="690" r="6"/><circle cx="525" cy="655" r="4"/><circle cx="670" cy="682" r="5"/>
+  </g>
+  <g stroke="#4CB9FF" stroke-opacity=".22" fill="none">
+    <circle cx="160" cy="870" r="180"/><circle cx="160" cy="870" r="290"/><circle cx="160" cy="870" r="410"/>
+  </g>
+
+  <g transform="translate(1450 120) scale(1.28)" opacity=".80">
+    <path d="M180 0 340 60v125c0 97-61 167-160 207C81 352 20 282 20 185V60z" fill="url(#shieldG)" stroke="#51B5FF" stroke-opacity=".48" stroke-width="3"/>
+    <path d="M180 28 312 78v102c0 76-45 132-132 168C93 312 48 256 48 180V78z" fill="#091B39" fill-opacity=".32"/>
+  </g>
+
+  <g fill="none" stroke="#3E8FEF" stroke-opacity=".30" stroke-width="2">
+    <path d="M1320 120 C1510 250 1640 415 1900 420"/>
+    <path d="M1280 40 C1460 220 1620 330 1910 315"/>
+  </g>
+  <g fill="#4FC3FF" filter="url(#glow)">
+    <circle cx="1390" cy="180" r="4"/><circle cx="1530" cy="300" r="6"/><circle cx="1690" cy="392" r="4"/><circle cx="1840" cy="416" r="5"/>
+  </g>
+
+  <g opacity=".16" stroke="#62B7FF" fill="none" stroke-width="2">
+    <path d="M105 130l35-20 35 20v40l-35 20-35-20z"/>
+    <path d="M240 170l48-27 48 27v54l-48 27-48-27z"/>
+    <path d="M1530 780l42-24 42 24v48l-42 24-42-24z"/>
+    <path d="M1645 845l54-31 54 31v62l-54 31-54-31z"/>
+  </g>
+
+  <ellipse cx="960" cy="520" rx="520" ry="310" fill="#0B2A5B" opacity=".18" filter="url(#soft)"/>
+</svg>
