@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-label="Shubham Identity Security logo">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081A3A"/>
+      <stop offset="0.52" stop-color="#0B3FAE"/>
+      <stop offset="1" stop-color="#18A8FF"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#081A3A"/>
+      <stop offset="1" stop-color="#0E4FC7"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g transform="translate(32 22)">
+    <path d="M190 18 340 75v116c0 83-53 145-150 184C93 336 40 274 40 191V75z" fill="url(#shield)"/>
+    <path d="M190 48 310 94v94c0 63-38 111-120 146C108 299 70 251 70 188V94z" fill="#07152D" opacity=".32"/>
+    <path d="M247 104c-16-18-40-28-67-28-49 0-85 27-85 67 0 39 29 55 77 66 36 8 49 15 49 31 0 15-14 25-37 25-29 0-53-12-72-35l-35 31c26 33 61 49 105 49 55 0 91-29 91-72 0-40-27-57-76-69-38-9-50-15-50-29 0-13 13-22 34-22 23 0 43 9 58 25z" fill="#fff"/>
+    <path d="M118 216c20 7 42 12 67 17 31 6 42 12 42 24 0 6-3 11-8 15 22-6 40-17 54-33-10-28-36-41-77-51-29-7-42-12-47-20-14 12-25 28-31 48z" fill="#58C8FF" opacity=".95" filter="url(#glow)"/>
+  </g>
+  <g transform="translate(420 96)">
+    <text x="0" y="105" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" letter-spacing="-3" fill="url(#word)">Shubham</text>
+    <text x="5" y="164" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600" letter-spacing="8" fill="#4D6E9E">IDENTITY SECURITY</text>
+    <rect x="4" y="197" width="510" height="6" rx="3" fill="#168CF5" opacity=".75"/>
+  </g>
+</svg>
